@@ -1,0 +1,127 @@
+#resultado{
+width:330px;
+height:90px;
+border:5px insert rgb(101,241,8);
+background:linear-gradient(45deg,rgb(127,241,127),darkgreen);
+margin-left:25px;
+font-size:40px;
+}
+.painel{
+width:340px;
+padding:5px;
+margin:25px;
+align-items:center;
+display:grid;
+grid-template-columns:2fr 2fr 2fr;
+grid-template-rows:1fr 1fr 1fr;
+grid-template-areas:
+". letra voltar btndividir"
+"btn7 btn8 btn9 bntMais"
+"btn6 btn5 btn4 btnMenos"
+"btn3 btn2 btn1 btnVezes"
+".btn0 btnIgual btnp";
+gap:3px;
+}
+button{
+    color:white;
+    background-color:black;
+    width:40px;
+    border-radius:100%;
+    border:2px solid white;
+    font-size:40px;
+    box-shadow:2px 2px 2px green;
+}
+.calculadora{
+color:rgba(115,45,245,0.945);
+width:390px;
+height:570px;
+background-color: #b4e8d1;
+position:absolute;
+left:150px;
+border-radius:35px;
+overflow:hidden;
+text-align:center;
+}
+.btnMais{
+    display:grid;
+    grid-area:btnMais;
+}
+.btnMenos{
+    display:grid;
+    grid-area:btnMenos;
+}
+.btnVezes{
+    display:grid;
+    grid-area:btnVezes;
+}
+.btnp{
+    display:grid;
+    grid-area:btnp;
+}
+.letra{
+    display:grid;
+    grid-area:letra;
+    width:auto;
+    color:coral;
+    margin-left:-55px;
+}
+.btnIgual{
+    display:grid;
+    grid-area:btnIgual;
+}
+.btn1{
+    display:grid;
+    grid-area:btn1;
+}
+.btn2{
+    display:grid;
+    grid-area:btn2;
+}
+.btn3{
+    display:grid;
+    grid-area:btn3;
+}
+.btn4{
+    display:grid;
+    grid-area:btn4;
+}
+.btn5{
+    display:grid;
+    grid-area:btn5;
+}
+.btn6{
+    display:grid;
+    grid-area:btn6;
+}
+.btn7{
+    display:grid;
+    grid-area:btn7;
+}
+.btn8{
+    display:grid;
+    grid-area:btn8;
+}
+.btn9{
+    display:grid;
+    grid-area:btn9;
+}
+.btn0{
+    display:grid;
+    grid-area:btn0;
+}
+.linha1{
+    position:absolute;
+    top:0px;
+    width:20px;
+    height:610px;
+    background:linear-gradient(90deg,blue,darckwhite,rgb(2,2,97));
+}
+.linha2{
+    position:absolute;
+    top:0px;
+    left:370px;
+    width:20px;
+    height:610px;
+    background:linear-gradient(90deg,blue,darckwhite,rgb(2,2,97));
+}
+

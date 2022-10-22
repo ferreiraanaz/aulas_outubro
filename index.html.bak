@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel ="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body style color: black>
+<div class="calculadora"> <h1>Calculadora</h1>
+<p id="resultado"></p>
+<div class="painel">
+<button class="btn0" onclick="insert('0')">0</button>
+<button class="btn1" onclick="insert('1')">1</button>
+<button class="btn2" onclick="insert('2')">2</button>
+<button class="btn3" onclick="insert('3')">3</button>
+<button class="btn4" onclick="insert('4')">4</button>
+<button class="btn5" onclick="insert('5')">5</button>
+<button class="btn6" onclick="insert('6')">6</button>
+<button class="btn7" onclick="insert('7')">7</button>
+<button class="btn8" onclick="insert('8')">8</button>
+<button class="btn9" onclick="insert('9')">9</button>
+<button class="btnp" onclick="insert('.')">.</button>
+<button class="btnMais" onclick="insert('+')">+</button>
+<button class="btnMenos" onclick="insert('-')">-</button>
+<button class="btnVezes" onclick="insert('*')">x</button>
+<button class="btnDividir" onclick="insert('/')">/</button>
+<button class="Letra" onclick="clean">c</button>
+<button class="btnIgual" onclick="back()">=</button>
+<button class="voltar" onclick="back()"><</button>
+
+</div>
+</div>
+<div class="linha1"></div>
+<div class="linha2"></div>
+
+</body>
+</head>
